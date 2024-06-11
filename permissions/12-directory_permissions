@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -dl my_dir
+mkdir my_dir rwxr-xr-x
