@@ -1,2 +1,2 @@
 #!/bin/bash
-touch my_dir 751
+ls -dl my_dir
