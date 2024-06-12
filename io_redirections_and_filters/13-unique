@@ -1,2 +1,2 @@
 #!/bin/bash
-uniq_words=$(sort | uniq -c | sort '$1 == 1 {print} ' ) 
+uniq_words=$(sort | uniq -c | -u '$1 == 1 {print} ' ) 
