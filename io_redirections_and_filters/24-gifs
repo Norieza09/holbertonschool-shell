@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type f -name "*.gif" -exec bash -c 'process_files "$@"' _ {} +
+find . -type f -name '''*.gif''' 
